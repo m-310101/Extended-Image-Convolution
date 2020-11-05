@@ -4,7 +4,6 @@ function [iOut] = extended_convolution(iSource, k)
 % image(img) and kernel(k) input a grayscale image (2D matrix) and a 
 % filtering kernel (2D matrix), and returns the convolved image result 
 % as a greyscale image with the same size and datatype as the input image.
-% Hint: use 'padarray' here
 
     iOut = iSource;
     kerRowMid = ceil(size(k,1)/2);
